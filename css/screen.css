@@ -3,13 +3,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    border-top: 20px solid #211e55;
-    background: linear-gradient(0deg,transparent 39px,#f6f6f6 40px),linear-gradient(270deg,transparent 39px,#f6f6f6 40px);
+    border-top: 1.25rem solid #211e55;
+    background: linear-gradient(0deg,transparent 2.4375rem,#f6f6f6 2.5rem),linear-gradient(270deg,transparent 2.4375rem,#f6f6f6 2.5rem);
     background-size: auto auto, auto auto;
-    background-size: 40px 40px;
+    background-size: 2.5rem 2.5rem;
     color: #333;
     font-family: 'Noto Sans Japanese', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
 
 .masthead-brand {
     margin-bottom: 0;
-    font-size: 32px;
+    font-size: 2rem;
 }
 .masthead-brand-link{
     color: #211e55;
@@ -31,8 +31,7 @@ header {
 .nav-masthead .nav-link {
     color: #211e55;
     padding: .25rem 0;
-    //    font-weight: 700;
-    font-size: 20px;
+    font-size: 1.5rem;
     border-bottom: .25rem solid transparent;
 }
 
@@ -69,7 +68,7 @@ header {
     padding: 2.5rem 0;
     color: #999;
     text-align: center;
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
 #content img {
@@ -78,30 +77,32 @@ header {
 }
 
 #post-tags {
-    margin-top: 30px;
+    margin-top: 1rem;
 }
 
 #prev-next {
-    padding: 15px 0;
+    padding: 0.9rem 0;
 }
 
 .post-header {
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
 }
-.post-header h2 {
-    font-size: 32px;
+.post-header h1 {
+    font-size: 2.2rem;
+    color: #211e55;
 }
 
 #post-meta {
-    font-size: 14px;
+    font-size: 0.8rem;
     color: rgba(0,0,0,0.4)
 }
 
 #page-header {
-    border-bottom: 1px solid #dbdbdb;
+    color: #211e55;
+    border-bottom: 0.06rem solid #dbdbdb;
 }
-#page-header h2 {
-    font-size: 32px;
+#page-header h1 {
+    font-size: 2.2rem;
 }
 
 pre {
@@ -115,9 +116,10 @@ pre: ; code {
 }
 
 code {
+    font-family: "Source Code Pro";
     color: #428bca;
 }
 
 pre, code, .hljs {
-    background-color: #68699b;
+    background-color: #f6f7f8;
 }
