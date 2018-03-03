@@ -7,7 +7,6 @@
     </div>
     {% if page.toc %}{{page.toc|safe}}{% endif %}
     {{page.content|safe}}
-
     <div id="prev-next">
         {% if page.prev %}
         <a href="{{page.prev.uri}}">&laquo; {{page.prev.title}}</a>
